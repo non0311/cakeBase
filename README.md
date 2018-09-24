@@ -46,7 +46,8 @@ DB設定後に以下コマンドを実行
 ```
 bin/cake migrations migrate
 ```
-##備考メモ
+
+## 備考メモ
 
 mariadbのセットアップで初期化(rootユーザーとそのパスワードの設定など)した後に、
 databaseの作成等を行い、
@@ -55,7 +56,7 @@ db名、ユーザー(rootならroot)、パスを、加える必要がある。
 
 また、.gitigoreにより、database.phpは、コミットできなくなっている。
 
-##dbカスタマイズメモ
+## dbカスタマイズメモ
 
 現在、cake_baseというdb名を作成するようにprovision.shに書かれており、
 その接続について、config/app/phpに記載している、
